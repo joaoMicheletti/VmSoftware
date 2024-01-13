@@ -76,6 +76,8 @@ footer p {
 .prev-btn,
 .next-btn {
     background-color: rgb(76, 160, 175);
+    width: 40px ;
+        height: 130px;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -91,5 +93,23 @@ footer p {
 #imgprojeto{
     height: 400px;
     border-radius: 50px;
-    width: 50%px;
+    width: 50%;
+}
+@media (max-width:700px){
+    #imgprojeto{
+        height: 200px;
+        border-radius: 50px;
+        width: 60%;
+    }
+    .prev-btn,
+    .next-btn {
+        width: 40px ;
+        height: 130px;
+        background-color: rgb(76, 160, 175);
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
 }
