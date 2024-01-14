@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fábrica de Software</title>
+    <title>VmSoftware</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,132 +11,134 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#missao">Missão</a></li>
-                <li><a href="#visao">Visão</a></li>
-                <li><a href="#valores">Valores</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#visao">aboute</a></li>
+                <li><a href="./cursos.html">Treinamento</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="home">
-        <div class="container">
-            <h1>#VMSoftware
-                <br/>Conectando Ideias, 
-                <br/>Transformando o Digital, 
-                <br/>Capacitando o Futuro.
-            </h1>
-            <p>Na VMSoftware, nossa visão é moldar o 
-                futuro da tecnologia, trazendo inovação e 
-                conhecimento para a vanguarda da era digital. 
-                Somos uma startup apaixonada por criar soluções tecnológicas 
-                web inovadoras, impulsionadas pelo poder do ecossistema JavaScript.</p>
+        <div class="containerhome">
+            <h1>&#10094;VmSoftware/&#10095;</h1>
+            <p>
+                inovação e tecnologia que seu negocio precisa!.<br/>
+                Na era digital em constante evolução, a chave 
+                para o sucesso empresarial reside na capacidade 
+                de abraçar a tecnologia e promover a inovação. 
+                Na VmSoftware, estamos comprometidos em 
+                ser o parceiro que você precisa para impulsionar 
+                o seu negócio para novas alturas.
+            </p>
+            <button id="btn"><a href="#contato">Contato</a></button>
+        </div>
+        <div id="imghome">
+            <div class="project-section">
+                <div class="projects-container">
+                    <div class="project" id="project1">
+                    <!-- Conteúdo do Projeto 1 -->
+                    <a href="https://github.com/joaoMicheletti/BeautyBook" target="_blank" ><img id="imgprojeto" src="assets/homepropaganda.png" alt="projeto bealtybook"/></a>
+                </div>
+                <div class="project" id="project2">
+                    <!-- Conteúdo do Projeto 2 -->
+                    <a href="https://github.com/joaoMicheletti/BeautyBook" target="_blank"><img id="imgprojeto" src="assets/login.png" alt="projeto bealtybook"/></a>
+                </div>
+                <div class="project" id="project3">
+                    <!-- Conteúdo do Projeto 3 -->
+                    <a  href="https://github.com/joaoMicheletti/Bih/blob/main/frontend/src/pages/assets/login.png" target="_blank"><img id="imgprojeto" src="assets/cbia.png" alt="projeto bealtybook"/></a>
+                </div>
+                <div class="project" id="project4">
+                    <!-- Conteúdo do Projeto 3 -->
+                    <a href="https://nimble-conkies-fa2423curso-de-nodejs.netlify.app/" target="_blank"><img id="imgprojeto" src="assets/node.png" alt="projeto bealtybook"/></a>
+                </div>
+                <div class="project" id="project5">
+                    <!-- Conteúdo do Projeto 3 -->
+                    <a href="https://github.com/joaoMicheletti/BeautyBookBack-end" target="_blank"><img id="imgprojeto" src="assets/beauty.png" alt="projeto bealtybook"/></a>
+                </div>
+                <div class="project" id="project6">
+                    <!-- Conteúdo do Projeto 3 -->
+                    <a href="https://github.com/joaoMicheletti/Incrypt_full_project" target="_blank"><img id="imgprojeto" src="assets/encripty.png" alt="projeto bealtybook"/></a>
+                </div>
+                <div class="project" id="project7">
+                    <!-- Conteúdo do Projeto 3 -->
+                    <a href="https://joaomicheletti.github.io/sos_helpDesk/" target="_blank"><img id="imgprojeto" src="assets/sos.png" alt="projeto bealtybook"/></a>
+                </div>
+                <!-- Adicione mais projetos conforme necessário -->
+                </div>
+                <div class="slide-buttons">
+                    <button class="prev-btn" onclick="changeProject(-1)">&#10094;</button>
+                    <button class="next-btn" onclick="changeProject(1)"> &#10095;</button>
+                </div>
+            </div>
         </div>
     </section>
-
-    <section id="missao">
-        <div class="container">
-            <h2>Missão da VMSoftware: Potencializando Transformações Digitais com Inovação e Educação Acessível</h2>
-            <p>Na VMSoftware, nossa missão é impulsionar transformações digitais significativas, oferecendo soluções inovadoras e cursos de programação acessíveis. Estamos comprometidos em criar um impacto positivo, capacitando indivíduos, empresas e comunidades a prosperarem na era digital.
-
-                Desenvolvimento de Soluções Inovadoras:
-                Buscamos constantemente desafios que exigem 
-                criatividade e inovação. Nossa missão é desenvolver
-                soluções tecnológicas web que não apenas atendam, 
-                mas superem as necessidades de 
-                nossos clientes, proporcionando eficiência, escalabilidade
-                e experiências excepcionais.</p>
+    <section id="about">
+        <div class="conteudo" id='misao'>
+            <h2>Missão</h2>
+            <br/><br/>
+            <p>Na VmSoftware, impulsionamos transformações digitais 
+                por meio de soluções inovadoras e cursos de programação 
+                acessíveis. Comprometidos em criar um impacto positivo, 
+                capacitamos indivíduos, empresas e comunidades a
+                prosperarem na era digital. Nosso foco é o desenvolvimento 
+                de soluções tecnológicas web que superam as 
+                expectativas, oferecendo eficiência, escalabilidade 
+                e experiências excepcionais.
+            </p>
         </div>
-    </section>
-
-    <section id="visao">
-        <div class="container">
+        <div class="conteudo"  id="visao">
             <h2>Visão</h2>
-            <p>Na VMSoftware, nossa visão é ser reconhecida 
+            <br/>
+            <br/>
+            <p>Na VmSoftware, nossa visão é ser reconhecida 
                 como uma força motriz na transformação digital, 
                 inspirando inovação e capacitando indivíduos em 
                 todo o mundo. Almejamos não apenas criar tecnologia,
                 mas também moldar um futuro onde as soluções digitais
-                impulsionem a excelência em todos os setores.</p>
+                impulsionem a excelência em todos os setores.
+            </p>
+        </div>
+        <div class="conteudo"  id="valores">
+            <h2>Valores</h2>
+            <br/><p>
+                Inovação:
+                Cultivamos criatividade, incentivando soluções inovadoras. Encaramos desafios como oportunidades de crescimento.
+                
+                Educação Capacitadora:
+                Acreditamos na educação como poder transformador. Buscamos proporcionar acesso universal à programação, capacitando para o futuro digital.
+                
+                Transparência e Integridade:
+                Valorizamos transparência em todas as interações, agindo com integridade para construir confiança duradoura.
+                
+                Diversidade e Inclusão:
+                Celebramos a diversidade, promovendo um ambiente inclusivo para colaboração e inovação.
+                
+                Responsabilidade Ambiental:
+                Minimizamos nosso impacto ambiental com práticas sustentáveis, contribuindo para um futuro mais verde.
+            </p>
         </div>
     </section>
-
-    <section id="valores">
-        <div class="container">
-            <h2>Valores da VMSoftware: Fundamentos que Orientam Nossa Jornada Tecnológica</h2>
-            <p>Inovação Constante:
-                Promovemos uma cultura que celebra a criatividade e incentiva a busca contínua por soluções inovadoras.
-                Encorajamos a experimentação e a disposição para abraçar desafios, vendo-os como oportunidades para aprender e crescer.
-            
-            <br/><br/>Empoderamento pela Educação:
-            
-                Acreditamos que a educação é a chave para a capacitação. Buscamos proporcionar acesso universal à educação em programação, capacitando indivíduos a moldarem seu próprio futuro digital.
-            
-                <br/><br/>Transparência e Integridade:
-            
-                Valorizamos a transparência em todas as interações, internas e externas.
-                Atuamos com integridade em todas as decisões e compromissos, construindo confiança duradoura com nossos colaboradores, clientes e parceiros.
-            
-                <br/><br/>Diversidade e Inclusão:
-            
-                Celebramos a diversidade de pensamento, experiência e origens.
-                Promovemos um ambiente inclusivo, onde cada voz é ouvida e respeitada, fomentando a colaboração e a inovação.
-            
-                <br/><br/>Responsabilidade Ambiental:
-            
-                Comprometemo-nos a minimizar nosso impacto ambiental, adotando práticas sustentáveis em nossas operações e produtos.
-                Buscamos constantemente maneiras de contribuir para um futuro mais verde e sustentável.</p>
-        </div>
-    </section>
-    <h2 id="titleprojetos">Conheça alguns de nossos projetos</h2>
-    <div class="project-section">
-        <div class="projects-container">
-            <div class="project" id="project1">
-            <!-- Conteúdo do Projeto 1 -->
-            <a href="https://github.com/joaoMicheletti/BeautyBook" target="_blank" ><img id="imgprojeto" src="assets/homepropaganda.png" alt="projeto bealtybook"/></a>
-        </div>
-        <div class="project" id="project2">
-            <!-- Conteúdo do Projeto 2 -->
-            <a href="https://github.com/joaoMicheletti/BeautyBook" target="_blank"><img id="imgprojeto" src="assets/login.png" alt="projeto bealtybook"/></a>
-        </div>
-        <div class="project" id="project3">
-            <!-- Conteúdo do Projeto 3 -->
-            <a  href="https://github.com/joaoMicheletti/Bih/blob/main/frontend/src/pages/assets/login.png" target="_blank"><img id="imgprojeto" src="assets/cbia.png" alt="projeto bealtybook"/></a>
-        </div>
-        <div class="project" id="project4">
-            <!-- Conteúdo do Projeto 3 -->
-            <a href="https://nimble-conkies-fa2423curso-de-nodejs.netlify.app/" target="_blank"><img id="imgprojeto" src="assets/node.png" alt="projeto bealtybook"/></a>
-        </div>
-        <div class="project" id="project5">
-            <!-- Conteúdo do Projeto 3 -->
-            <a href="https://github.com/joaoMicheletti/BeautyBookBack-end" target="_blank"><img id="imgprojeto" src="assets/beauty.png" alt="projeto bealtybook"/></a>
-        </div>
-        <div class="project" id="project6">
-            <!-- Conteúdo do Projeto 3 -->
-            <a href="https://github.com/joaoMicheletti/Incrypt_full_project" target="_blank"><img id="imgprojeto" src="assets/encripty.png" alt="projeto bealtybook"/></a>
-        </div>
-        <!-- Adicione mais projetos conforme necessário -->
-        </div>
-        <div class="slide-buttons">
-            <button class="prev-btn" onclick="changeProject(-1)">&#10094;</button>
-            <button class="next-btn" onclick="changeProject(1)"> &#10095;</button>
-        </div>
-    </div>
     <script src="scripts.js"></script>
     <section id="contato">
         <div class="container">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco pelos seguintes canais:</p>
+            <h2>Contato</h2><br/>
+            <p>Entre em contato conosco pelos seguintes canais:</p><br/>
             <ul>
-                <li>WhatsApp: <a href="https://api.whatsapp.com/send?phone=5511932223533" target="_blank"WhatsApp VmSoftware>WhatsApp</a></li>
-                <li>Email: (jv604014@gmail.com)</li>
-                <li>Instagram: <a href="https://www.instagram.com/vm_software/" target="_blank">VmSoftware</a></li>
+                <li>
+                    <img src="./assets/whatsapp.png" alt="icone whatsapp"/>
+                    WhatsApp: <a href="https://api.whatsapp.com/send?phone=5511932223533" target="_blank"WhatsApp VmSoftware>WhatsApp</a></li><br/>
+                <li>
+                    <img src="./assets/gmail.png" alt="icone Email"/>
+                    Email: <a href="mailto:jv604014@gmail.com.com">Enviar um e-mail</a></li>
+                <br/>
+                <li>
+                    <img src="./assets/instagram.png" alt="icone instagram"/>
+                    Instagram: <a href="https://www.instagram.com/vm_software/" target="_blank">VmSoftware</a></li>
             </ul>
         </div>
     </section>
     <footer>
-        <div class="container">
-            <p>Todos os direitos reservados &copy; 2023 Fábrica de Software.</p>
+        <div  class="container">
+            <p>Todos os direitos reservados &copy; 2023 &#10094;VmSoftware&#10095;.</p>
         </div>
     </footer>
 </body>
